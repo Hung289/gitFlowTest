@@ -8,5 +8,10 @@ namespace Lesson29.Controllers
         {
             return View();
         }
+
+        public IActionResult Home()
+        {
+            return View();
+        }
     }
 }
